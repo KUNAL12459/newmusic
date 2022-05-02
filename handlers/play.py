@@ -148,7 +148,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f" 𝐒𝐨𝐧𝐠  𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 "
+                f" 𝐒𝐨𝐧𝐠 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 "
             )
 
         file_name = get_file_name(audio)
@@ -163,11 +163,7 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="",
-                            url=f"https://t.me/heartbrokenperson1"),
-                            
-                    InlineKeyboardButton(
-                            text="📨𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="Support",
                             url=f"https://t.me/Technobotsupport")
                ],
                
@@ -207,11 +203,7 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
-                            
-                    InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="Support",
                             url=f"https://t.me/Technobotsupport")
                ],
                
@@ -228,11 +220,7 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
-                            
-                    InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
+                            text="Support",
                             url=f"https://t.me/Technobotsupport")
                ],
                
@@ -277,7 +265,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "𝐒𝐨𝐧𝐠 𝐍𝐨𝐭 𝐅𝐨𝐮𝐧𝐝 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐏𝐫𝐨𝐛𝐥𝐞𝐦 ."
+                "Song not found."
             )
             print(str(e))
             return
@@ -287,12 +275,8 @@ async def play(_, message: Message):
                 
                [
                     InlineKeyboardButton(
-                            text="📨 𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
-                            url=f"https://t.me/HEARTBROKENPERSON1"),
-                            
-                    InlineKeyboardButton(
-                            text="📨 𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
+                            text="Support",
+                            url=f"https://t.me/Technobotsupport")
                ],
                
             ]
@@ -300,7 +284,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❰ ° 𝐒𝐨𝐧𝐠 🎸 ° ❱ 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲 ▶ ❤️🥀❌"
+                f"𝐒𝐨𝐧𝐠 𝐋𝐨𝐧𝐠𝐞𝐫 𝐓𝐡𝐚𝐧 {DURATION_LIMIT} 𝐌𝐢𝐧𝐮𝐭𝐞'𝐒 𝐀𝐫𝐞𝐧'𝐭 𝐀𝐥𝐥𝐨𝐰𝐞𝐝 𝐓𝐨 𝐏𝐥𝐚𝐲"
             )
             return
         requested_by = message.from_user.first_name
@@ -314,7 +298,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**\n𝗕𝘆 : @TMC_EMPIRES".format(position),
+            caption="****Techno song position** {}**\n𝗕𝘆 : @Technobotsupport".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -331,7 +315,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**\n𝗕𝘆 : @TMC_EMPIRES".format(
+            caption="**Techno music Now playing at `{}`...**\n𝗕𝘆 : @Technobotsupport".format(
         message.chat.title
         ), )
 
