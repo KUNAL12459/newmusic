@@ -20,10 +20,6 @@ For Help : @HEARTBROKENPERSON1**""",
                     InlineKeyboardButton("✚ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton("👤 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("📢 𝐒𝐎𝐔𝐑𝐂𝐄", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
-                ],[
-                    InlineKeyboardButton("📨 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/full_masti_clubs"),
-                    InlineKeyboardButton("📨 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/heartbrokenperson1")
                 ],[
                     InlineKeyboardButton("🔍 How To Use? Commands", callback_data="cb_cmd")
                 ],
@@ -50,14 +46,11 @@ async def cbcmd(_, query: CallbackQuery):
 ⚙ Some Extra Commands :-
 
 » /ping - Shows the Ping Status
-» /start - Starts the Bot
 » /id - Get the ID
-» /repo - Get the source code 
 » /rmd - Clean all the downloads
 » /clean - Clean the Storage
-» /gcast - broadcast your message 
 
 
-🌀 Powered By : @heartbrokenperson1**""",
+🌀 Powered By : @technobotsupport**""",
     )
 
