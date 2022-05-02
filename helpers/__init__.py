@@ -1,1 +1,1 @@
-##katil @tera_baap_katil
+Jo kang kre uski behan ke boor me Mera lund🤤🤤
