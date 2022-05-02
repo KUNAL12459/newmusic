@@ -1,9 +1,9 @@
 {
-  "name": "KatilMusicX",
-  "logo": "https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg",
+  "name": "Technomusic",
+  "logo": "https://telegra.ph/file/72b660534647fd5caad0c.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/bhumiharsaurabh/katilmusicx",
+  "repository": "https://github.com/Team-techno/newmusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
